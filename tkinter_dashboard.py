@@ -1,3 +1,4 @@
+#%%
 import tkinter as tk
 from tkinter import ttk
 import pandas as pd
@@ -10,7 +11,7 @@ import matplotlib.pyplot as plt
 data = {
     "Month": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
     "Sales": [150, 200, 180, 90, 300, 250],
-    "Profit": [50, 80, 60, 100, 150, 120],
+    "Profit": [50, 80, 60, 100, 150, 1200],
 }
 df = pd.DataFrame(data)
 
@@ -73,3 +74,5 @@ canvas.get_tk_widget().pack(fill="both", expand=True)
 # Run
 # -------------------------
 root.mainloop()
+
+#%%
